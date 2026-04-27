@@ -4,7 +4,7 @@ import { tanstackStart } from '@tanstack/react-start/plugin/rsbuild'
 
 export default defineConfig({
   plugins: [
-    pluginReact({ splitChunks: false }),
+    pluginReact(),
     tanstackStart(),
   ],
 })
